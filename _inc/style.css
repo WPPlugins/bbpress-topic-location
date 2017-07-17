@@ -1,0 +1,13 @@
+/*hide auto-locate link until we see that navigator is enabled for the browser (in js)*/
+#bbp_topic_location_field small{
+    display:none;
+}
+
+#bbp_topic_location_field input[type=text].loading{
+    background:url("images/loading.gif") no-repeat scroll 98% 50% transparent;
+}
+
+.bbp-topic-meta.bbp-topic-location{
+	color:#888;
+	font-weight:bold;
+}
